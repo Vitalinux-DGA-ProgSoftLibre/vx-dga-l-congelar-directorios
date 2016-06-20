@@ -1,0 +1,11 @@
+Package: vx-dga-l-congelar-directorios
+Version: 1.0-6
+Architecture: all
+Maintainer: Arturo Martín <amartinromero@gmail.com>
+Installed-Size: 69
+Depends: vx-dga-l-skel-usuarios
+Section: x11
+Priority: extra
+Homepage: https://github.com/Vitalinux-DGA-ProgSoftLibre
+Description: Congelación Directorios del HOME del usuario
+ Paquete encargado de eliminar el contenido de los directorios básicos del HOME

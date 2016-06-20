@@ -1,0 +1,14 @@
+Source: vx-dga-l-congelar-directorios
+Section: x11
+Priority: extra
+Maintainer: Arturo Martín <amartinromero@gmail.com>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.3
+Homepage: https://github.com/Vitalinux-DGA-ProgSoftLibre
+
+Package: vx-dga-l-congelar-directorios
+Architecture: all
+Pre-Depends:
+Depends: ${misc:Depends}, vx-dga-l-skel-usuarios
+Description: Congelación Directorios del HOME del usuario
+ Paquete encargado de eliminar el contenido de los directorios básicos del HOME

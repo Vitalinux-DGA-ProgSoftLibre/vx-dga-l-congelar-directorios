@@ -1,0 +1,6 @@
+vx-dga-l-congelar-directorios (1.0-6) unstable; urgency=low
+
+  * Paquete encargado de eliminar el contenido de los directorios básicos del HOME
+  * Se ha modificado el paquete para que se produzca la congelación al cerrar sesión o apagar el equipo
+
+ -- Arturo Martín <amartinromero@gmail.com>  Sat, 7 Mar 2015 12:53:06 +0200
