@@ -1,3 +1,23 @@
+vx-dga-l-congelar-directorios (1.0-9) unstable; urgency=low
+
+  * Upgrade a la nueva version de tareas-logout, para que solo se realicen en el caso de cerrar X
+  * Chequeo en datos de usuario
+  * Reubicación de la tarea en vitalinux postrun
+
+ -- Ignacio Sancho <sannacho@gmail.com>  Mon, 13 Mar 2017 10:53:06 +0200
+
+vx-dga-l-congelar-directorios (1.0-8) unstable; urgency=low
+
+  * Corregido bug en lectura de directorios congelados
+
+ -- Ignacio Sancho <sannacho@gmail.com>  Mon, 13 Mar 2017 00:53:06 +0200
+
+vx-dga-l-congelar-directorios (1.0-7) unstable; urgency=low
+
+  * Ahora la congelación también tendrá en cuenta directorios que comiencen con . (por ejemplo para .wine) y que tengan espacios en blanco
+
+ -- Arturo Martín <amartinromero@gmail.com>  Tue, 7 Mar 2017 12:53:06 +0200
+
 vx-dga-l-congelar-directorios (1.0-6) unstable; urgency=low
 
   * Paquete encargado de eliminar el contenido de los directorios básicos del HOME

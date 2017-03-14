@@ -1,9 +1,9 @@
 Package: vx-dga-l-congelar-directorios
-Version: 1.0-6
+Version: 1.0-9
 Architecture: all
 Maintainer: Arturo Martín <amartinromero@gmail.com>
-Installed-Size: 69
-Depends: vx-dga-l-skel-usuarios
+Installed-Size: 71
+Pre-Depends: vx-dga-l-migasfree-launcher (>= 5.1), vx-dga-l-skel-usuarios (>= 1.1)
 Section: x11
 Priority: extra
 Homepage: https://github.com/Vitalinux-DGA-ProgSoftLibre
