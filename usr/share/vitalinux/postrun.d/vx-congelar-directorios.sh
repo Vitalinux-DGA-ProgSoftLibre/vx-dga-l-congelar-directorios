@@ -5,6 +5,9 @@
 USUARIO=$(vx-usuario-grafico)
 ejecutor=$(whoami)
 
+vx-regenerar-perfil-usuarios-cli
+
+<<FORMA_ANTERIOR
 if [ -z $USUARIO ] ; then
 	echo `date` "Usuario sin especificar. Salimos"
 	exit 1
@@ -33,3 +36,4 @@ for DIRECTORIO in $(ls /etc/skel-directorios-congelados/ -a | egrep -v "^\.?\.$"
 	chown -R $USUARIO.sudo ${HOMEUSUARIO}/$DIRECTORIO
 done
 IFS=$SAVEIFS
+FORMA_ANTERIOR

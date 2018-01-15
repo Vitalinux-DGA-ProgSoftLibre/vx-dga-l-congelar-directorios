@@ -1,3 +1,11 @@
+vx-dga-l-congelar-directorios (2.0-1) unstable; urgency=low
+
+  * Se eliminan el directorio y subdirectorios skel-directorios-congelados
+  * Se hace uso de la congelación del script vx-regenerar-perfil-usuarios-cli
+  * Se añade la dependencia con el paquete vx-dga-l-scripts que contiene el script vx-regenerar-perfil-usuarios-cli
+
+ -- Arturo Martín <amartinromero@gmail.com>  Tue, 19 Dec 2017 12:53:06 +0200
+
 vx-dga-l-congelar-directorios (1.0-9) unstable; urgency=low
 
   * Upgrade a la nueva version de tareas-logout, para que solo se realicen en el caso de cerrar X
